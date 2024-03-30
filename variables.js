@@ -2,6 +2,7 @@ const accountId = 144533
 let accountEmail = "abc@gmail.com"
 var accountPassword = "1545"
 accountCity = "Jaipur"
+let accountState; // here the value will be undefined
 
 // accountId = 23 // not allowed
 
