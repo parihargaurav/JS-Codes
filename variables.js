@@ -13,3 +13,4 @@ accountPassword = "155555"
 because of issue in block scope{} and functional scope*/ 
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
+// here console.table will genreate output in table
