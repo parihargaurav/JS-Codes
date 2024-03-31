@@ -22,6 +22,17 @@ gamecounter++; // or this way ++gamechanger and will be 101
 console.log(gamecounter);// 101
 
 
+// comparison of datatypes:
+console.log("2" >1); // true
+console.log(null > 0); //false
+console.log( null == 0);  // equality check // false
+console.log(null >= 0); // true
 
+/* Comparisons convert null to a number , treating as 0
+that's why null>= 0 is true and null>0 is false*/
 
+console.log(undefined < 0); // false
 
+//  strick check  === which checks the number and it's equality check
+console.log("2"===2);// false 
+//  not same datatype
