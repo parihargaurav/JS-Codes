@@ -33,3 +33,30 @@ const myFunction = function(){
 
 console.log(typeof myFunction); // function
 // function return is object function
+
+
+
+// here memeory stored in js is as stack and heap
+
+//  stack form is in primitive datatypes
+//  heap form is in non - primitive datatypes
+//  stack eg
+let myYoutube = "GP"
+let ok = myYoutube
+ok = "Lone"
+console.log(myYoutube);// GP
+console.log(ok);// Lone
+
+//  heap
+
+let userOne = {
+    email: "gaurav@gmail.com",
+    upi: "ok@ybl"
+}
+ let userTwo = userOne
+ userTwo.email = "abc@gmail.com"
+
+ console.log(userOne);
+ console.log(userTwo);
+//   in stack we deals with copy of data
+//  in heap we work on real values data  reference .
