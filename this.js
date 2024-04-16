@@ -66,3 +66,4 @@ const adddTwo = (nums1 , nums2) => ({username: "Gaurav"}) // this way the object
 
 
 console.log(adddTwo(5,6)) // { username: 'Gaurav' }
+ 
