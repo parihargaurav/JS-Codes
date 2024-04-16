@@ -52,7 +52,7 @@ console.log(addTwo(5,6))// 11
 
 //  implicit return in arrow function -- meaning no need to writing return keyword
 
-const addToww = (nums1, nums2) => (nums1 + nums2) // this is alao good
+const addToww = (nums1, nums2) => (nums1 + nums2) // this is also good
 
 //  pro tips: 
 //  1. in {curly bracess} we had to return function 
