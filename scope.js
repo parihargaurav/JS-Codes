@@ -6,7 +6,7 @@ var c = 13;
 
 // values inside {} is block scope
 if (true) {
-  let a = 10;
+  let a = 11;
   const b = 20;
   var c = 30;
 }
