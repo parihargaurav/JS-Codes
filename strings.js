@@ -4,6 +4,7 @@ const repoCount = 12
 
 console.log(`Hello my name is ${name} and my repo count is  ${repoCount}`);
 // understanding methods in strings
+
 const gameName = new String('gaurav');
 console.log(typeof gameName); // string type is object
 console.log(gameName[3]);
