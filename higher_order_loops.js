@@ -132,3 +132,4 @@ myCoding.forEach( (item) => {
     
     console.log(item.languageName);
 } )  // array ke under objects ki value nikal li
+
