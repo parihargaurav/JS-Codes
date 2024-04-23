@@ -36,3 +36,11 @@ document.querySelector('#start').addEventListener
 document.querySelector('#stop').addEventListener
 ('click', stopChangingColor);
 
+
+/*here to convert string to json format we have this syntax
+eg; const data  = JSON.parse(this.responseText) .. converting string to json format data
+here .parse is method that converts string to json format*/
+
+
+
+// here console.log is a debugger tool in browser for debugging the code
