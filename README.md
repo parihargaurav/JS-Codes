@@ -1,2 +1,2 @@
 JavaScript practice. 
-Revision notes
+Revision notes.
