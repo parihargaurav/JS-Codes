@@ -1,4 +1,5 @@
 //  this keyword helps to understand the current context(values)
+// javascript me we will deal with objects only ;;
 
 const user = {
   username: "Gaurav",
@@ -38,6 +39,9 @@ const chai1 = () => {
   let username = "GP"
   console.log(this); // undefined
 }
+
+
+
 
 //  arrow function syntax
 // const myFunction = (param1, param2) => {
