@@ -1,0 +1,87 @@
+// here the giving access to scope {} sentence means that anything inside scope like variables its values and methods,
+are accessible to another one who has the acess to that scope.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure aur chai</title>
+</head>
+
+<body style="background-color: #313131;">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+</body>
+
+<script>
+    // function init() {
+    //     let name = "Mozilla";
+    //     function displayName() {
+    //         console.log(name);
+    //     }
+    //     displayName();
+    // }
+    // init();
+
+    // function outer(){
+    //     let username = "hitesh"
+    //     console.log("OUTER", secret);
+    //     function inner(){
+    //         let secret = "my123"
+    //         console.log("inner", username);
+    //     }
+    //     function innerTwo(){
+    //         console.log("innerTwo", username);
+    //         console.log(secret);
+    //     }
+    //     inner()
+    //     innerTwo()
+
+    // }
+    // outer()
+    // console.log("TOO OUTER", username);
+
+
+    // function makeFunc() {
+    //     const name = "Mozilla";
+    //     function displayName() {
+    //         console.log(name);
+    //     }
+    //     return displayName;
+    // }
+
+    // const myFunc = makeFunc();
+    // myFunc();
+
+</script>
+<script>
+    // document.getElementById("orange").onclick = function(){
+    //     document.body.style.backgroundColor = `orange`
+    // }
+    // document.getElementById("green").onclick = function(){
+    //     document.body.style.backgroundColor = `green`
+    // }
+
+    function clickHandler(color) {
+        // document.body.style.backgroundColor = `${color}`
+
+        return function () {
+            document.body.style.backgroundColor = `${color}`
+        }
+    }
+
+    document.getElementById('orange').onclick = clickHandler("orange")
+    document.getElementById('green').onclick = clickHandler("green")
+
+</script>
+
+</html>
+
+
+<!-- Lexical scoping refers to how variable access is determined at the time of writing code. In JavaScript, scope is determined by the placement of variables and blocks of code in the source code. When a variable is defined within a function, it is accessible only within that function unless it's shadowed by a variable with the same name in an inner scope.
+
+
+
+Closures are closely related to lexical scoping. A closure is the combination of a function and the lexical environment within which that function was declared. It allows a function to maintain access to variables from its containing (enclosing) scope even after the outer function has finished executing. -->
